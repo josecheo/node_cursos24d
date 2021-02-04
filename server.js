@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 
 // set port, listen for requests
 require("./app/routers/customer.routes")(app);
-app.listen(3000, () => {
+app.listen(4000, () => {
   console.log("Server is running on port 3000.");
 });
 
